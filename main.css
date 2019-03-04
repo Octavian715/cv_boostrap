@@ -1,0 +1,138 @@
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.img {
+    position: relative;
+}
+
+.exp {
+    padding: 25px 0
+}
+
+.title_content {
+    color: #cac2cd;
+    font-size: xx-large;
+}
+
+.experienta, .competet {
+    background: #f9f9f9;
+    height: 100%;
+}
+
+.data_user {
+    color: white;
+    top: 70%;
+    /*transform: translateX(50%);*/
+}
+
+.data_user .title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+
+.social_link {
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social_link i {
+    color: white;
+    padding: 32%;
+}
+.p38{
+    padding: 38%!important;}
+.social_link span {
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.social_link li:hover a:hover span, .social_link a:hover i {
+    color: black;
+    border-color: black;
+}
+
+.social_link li:hover a:hover span {
+    background: white;
+}
+
+.title_item, .com_item {
+    padding: 0;
+}
+
+.info, .experienta, .educatie, .competet {
+    padding: 50px;
+}
+
+.icon_t {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0;
+}
+
+.text {
+    font-size: medium
+}
+
+.text a {
+    color: black;
+    text-decoration: none;
+}
+
+.date {
+    font-weight: 500;
+}
+
+.info_content {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info_content li {
+    font-size: medium;
+    color: black;
+
+}
+
+.info_content
+.info_content li a {
+    color: black;
+    text-decoration: none;
+}
+
+.map i {
+    color: black;
+}
+
+.myphoto {
+    background: url('../cv_boostrap/img/IMG_3884_1.jpg') no-repeat left top;
+    background-size: cover;
+    max-width: 50%;
+    /*height: 100%;*/
+    min-height: 100%;
+    position: fixed;
+    display: block;
+}
+
+.social_link li {
+    display: inline;
+
+}
